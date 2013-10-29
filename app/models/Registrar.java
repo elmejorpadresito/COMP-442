@@ -1,3 +1,8 @@
+package models;
+
+import play.db.jpa.Model;
+import javax.persistence.Entity;
+
 public class Registrar extends Employee {
 
 	private long RegistrarID;

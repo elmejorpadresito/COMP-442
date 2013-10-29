@@ -1,3 +1,8 @@
+package models;
+
+import play.db.jpa.Model;
+import javax.persistence.Entity;
+
 public class Student_Course {
 
 	private float MidTerm;
